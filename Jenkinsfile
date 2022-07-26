@@ -7,7 +7,7 @@ pipeline {
         echo 'Nesto'
         
         script{
-          def test = 2+2>3 ? 'Tacno i pretacno' : 'Netacno'
+          def test = 2+2>3 ? 'Tacno i bas pretacno' : 'Netacno'
           echo test
         }
       }
