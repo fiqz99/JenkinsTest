@@ -5,6 +5,11 @@ pipeline {
     stage("Build"){
       steps {
         echo 'Nesto'
+        
+        script{
+          def test = 2+2>3 ? 'Tacno' : 'Netacno'
+          echo test
+        }
       }
     }
   }
